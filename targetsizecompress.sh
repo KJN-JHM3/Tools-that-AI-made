@@ -61,7 +61,7 @@ if [ -z "$INPUT" ]; then
 fi
 
 if [ -z "$OUTPUT" ]; then
-    OUTPUT="${INPUT%.*}_${RESOLUTION}p${FPS}fps_hw.mp4"
+    OUTPUT="${INPUT%.*}_${RESOLUTION}p${FPS}fps.mp4"
 fi
 
 # --- 1. ハードウェアエンコーダーの自動検出 ---
